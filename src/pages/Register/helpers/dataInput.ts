@@ -1,3 +1,17 @@
+type DataInput = {
+  item: number;
+  input: string;
+  placeholder: string;
+  label: string;
+};
+
+type DataInputFinally = {
+  input: string;
+  placeholder: string;
+  label: string;
+  keyboardType: string;
+};
+
 export const dataInput: DataInput[] = [
   {
     item: 1,
@@ -19,9 +33,23 @@ export const dataInput: DataInput[] = [
   },
 ];
 
-type DataInput = {
-  item: number;
-  input: string;
-  placeholder: string;
-  label: string;
-};
+export const dataInputFinally: DataInputFinally[] = [
+  {
+    input: "altura",
+    placeholder: "Digite seu nome e sobrenome",
+    label: "Altura",
+    keyboardType: "numeric",
+  },
+  {
+    input: "peso",
+    placeholder: "100",
+    label: "Peso",
+    keyboardType: "numeric",
+  },
+  {
+    input: "objetivo",
+    placeholder: "20",
+    label: "Idade",
+    keyboardType: "numeric",
+  },
+];

@@ -13,6 +13,7 @@ export const Image = styled.Image`
 export const Title = styled.Text`
   font-size: 32px;
   text-align: center;
+  color: #333;
 `;
 
 export const Form = styled.View`
@@ -24,5 +25,22 @@ export const Form = styled.View`
   flex: 1;
   gap: 20px;
 `;
+export const Content = styled.View`
+  padding: 0 20px;
+  margin-top: 40px;
+  flex: 1;
+`;
+
+export const RegisterForm = styled.View`
+  gap: 10px;
+  margin-top: 100px;
+`;
 
 export const BoxInput = styled.View``;
+
+export const BoxButton = styled.View`
+  flex: 1;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+  padding-top: 40px;
+`;
